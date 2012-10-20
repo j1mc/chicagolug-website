@@ -11,14 +11,14 @@
 <body>
     <div id="wrapper">
         <div id="header">
-            <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='images/logo.png') }}" alt="Brighton Python User Group" /></a>
+            <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='images/chicagolug-logo.png') }}" alt="Chicago GNU/Linux User Group" /></a>
             <h1>Chicago GNU/Linux User Group</h1>
         </div>
         
         <div id="menu">
             <ul>
                 <li><a href="{{ url_for('index') }}">Home</a></li>
-                <li><a href="{{ url_for('page', path='location') }}">Location</a></li>
+                <li><a href="{{ url_for('page', path='locations') }}">Locations</a></li>
                 <li class="meetings">
                     <a href="{{ url_for('meetings') }}">Meetings</a>
                     <a class="feed" href="{{ url_for('feed') }}" title="ChicagoLUG Events Atom Feed">
