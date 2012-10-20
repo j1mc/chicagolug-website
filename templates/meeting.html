@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Meeting : {{ meeting.title }}{% endblock %}
+
+{% block content %}
+    <div class="meeting">
+        <h2>{{ meeting.title }}</h2>
+        <p>
+            <strong>{{ meeting.speaker }}</strong>,
+            {{ meeting.datetime|datetimeformat("%A %B %d, %Y, %H:%M")}} at
+            <a href="{{ url_for("page", path="location") }}">{{ meeting.venue }}</a>
+        </p>
+        {{ meeting.content }}
+    </div>
+{% endblock %}
