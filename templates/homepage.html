@@ -3,12 +3,13 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
-    <h2>Welcome</h2>
-    <p>The <em>Chicago GNU/Linux User Group</em> is a group of technology and 
-    Free software enthusiasts who live in and around Chicago, IL. While our 
-    group primarily focuses on GNU/Linux, our members have a broad range of 
-    interests and experience, and our ranks include users of all major (and 
-    less major) operating systems.</p>
+  <div id="content-container">
+    <div id="content">
+    <h2>GNU/Linux + Free/Libre & Open Source Software + Fun</h2>
+    <p>We are a group of technology and Free software enthusiasts who live in 
+    and around Chicago, IL. While our group primarily focuses on GNU/Linux, our 
+    members have a broad range of interests and experience, and our ranks 
+    include users of all major (and less major) operating systems.</p>
 
     <h2>Upcoming Meetings</h2>
 
@@ -24,48 +25,29 @@
         <p>No meetings currently planned. <a href="{{ url_for('meetings') }}">
         Click here for past meetings.</a></p>
     {% endfor %}
+    </div>
+    <div id="aside">
+		  	  <img src="static/images/chicagolug-logo.png" alt="ChicagoLUG logo" 
+			    style="border:0;width:250px;height:250px;"/>
+		      <h3>
+		        Chicago Tux can hack . . . 
+		      </h3>
+		<div id="social">
+			<h3>
+				ChicagoLUG on Social Media
+			</h3>
+<a href="https://plus.google.com/110920643277848720575?prsrc=3" rel="publisher" 
+style="text-decoration:none;"><img src="static/images/gplus-32.png" 
+alt="Google+" style="border:0;width:32px;height:32px;"/></a>
+<a href="https://twitter.com/chicagolug" style="text-decoration:none;">
+<img src="static/images/twitter-32.png" alt="Twitter" 
+style="border:0;width:32px;height:32px;"/></a>
+<a href="https://identi.ca/chicagolug" style="text-decoration:none;">
+<img src="static/images/identica-32.png" alt="Identi.ca" 
+style="border:0;width:32px;height:32px;"/></a>
+		</div>
 
-    <div class="elsewhere" >
-        <h2>Elsewhere on the web</h2>
-
-        <div id="twitter">
-            <h3>Follow us on <a href="http://twitter.com/chicagolug">Twitter</a></h3>
-
-            <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-            <script>
-            new TWTR.Widget({
-              version: 2,
-              type: 'profile',
-              rpp: 3,
-              interval: 6000,
-              width: 225,
-              height: 300,
-              theme: {
-                shell: {
-                  background: '#6dc34b',
-                  color: '#000000'
-                },
-                tweets: {
-                  background: '#c4f4b7',
-                  color: '#000000',
-                  links: '#226903'
-                }
-              },
-              features: {
-                scrollbar: false,
-                loop: false,
-                live: false,
-                hashtags: true,
-                timestamp: true,
-                avatars: false,
-                behavior: 'all'
-              }
-            }).render().setUser('brightonpy').start();
-            </script>
-        </div>
-
-
-        <div id="googlegroup">
+<!---        <div id="googlegroup">
             <h3>Join our Google Group</h3>
             <img src="http://groups.google.com/intl/en/images/logos/groups_logo_sm.gif" height=30 width=140 alt="Google Groups">
             <h4>Subscribe to Brighton and Hove Python User Group</h4>
@@ -75,6 +57,8 @@
             </form>
             <p><a href="http://groups.google.com/group/brightonpy">Visit this group</a></p>
         </div>
+--->
     </div>
+  </div>
 
 {% endblock %}
