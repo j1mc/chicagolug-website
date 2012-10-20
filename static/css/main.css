@@ -3,13 +3,13 @@ html {
 }
 
 body {
-    background-color: #6DC34B;
+    background-color:#706344;
 }
 
 div#wrapper {
-    background-color: white;
-    width: 700px;
-    margin: 30px auto 10px auto;
+    background-color: #F4F4F4;
+    width: 95%;
+    margin: 2% auto 2% auto;
     padding-bottom: 50px;
     overflow: auto;
     min-height: 400px;
@@ -26,6 +26,42 @@ div#header img {
     display: block;
     float: left;
     margin: 10px;
+}
+
+div#menu {
+	float: left;
+	width: 100%;
+	background: #f4f4f4;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div#menu ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+div#menu ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+div#menu li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #000000;
+	text-decoration: none;
+	border-right: 1px solid #f4f4f4;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div#menu li a:hover 
+{ 
+  background: #704d44;
+  color: #FAFAFA
 }
 
 h1, h2, h3, h4 {
@@ -60,12 +96,12 @@ div#header h1 {
 }
 
 div#content {
-    width: 460px;
+    width: 100%;
     float: left;
 }
 
 div#menu {
-    width: 130px;
+    width: 100%;
     margin-left: 40px;
     float: left;
     font-size: 150%;
@@ -77,16 +113,16 @@ div#menu ul {
     padding: 0;
 }
 
+div#menu ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 div#menu ul li a {
     color: #404040;
     font-weight: bold;
     text-decoration: none;
-    display: block;
-}
-
-div#menu ul li a:hover {
-    color: #333;
-    text-shadow: 0 1px 1px #AAA;
 }
 
 div#menu li.meetings a {
@@ -95,7 +131,7 @@ div#menu li.meetings a {
 }
 
 div#menu li.meetings a.feed {
-    margin-left: 5px;
+    margin-left: 1px;
     margin-top: 1px;
 }
 
