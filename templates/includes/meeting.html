@@ -4,8 +4,8 @@
             {{ meeting.datetime|datetimeformat("%A %B %d, %Y, %H:%M")}}
         </abbr>
          at
-         <span class="location">
-            <a href="{{ url_for("page", path="location") }}">{{ meeting.venue }}</a>
+         <span class="locations">
+            <a href="{{ url_for("page", path="locations") }}">{{ meeting.venue }}</a>
          </span>
     </p>
     <p class="summary">
