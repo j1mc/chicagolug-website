@@ -37,7 +37,7 @@ div#container
 {
 	margin: 0 auto;
 	width: 90%;
-	background: #D4E1EF;
+	background: #FAFAFA;
 }
 
 /**div#container {
@@ -50,8 +50,7 @@ div#container
 } **/
 
 div#header {
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
+	padding: 0.5% 0.5% 0.5% 0.5% ;
   float: left;
   width: 100%;
   overflow: auto;
@@ -65,9 +64,11 @@ div#header h1 {
 }
 
 div#menu {
+	padding: 0 0.5% 0 0.5% ;
 	float: left;
 	width: 100%;
 	background: #f4f4f4;
+	overflow: auto;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -87,7 +88,7 @@ div#menu li a
 {
 	display: block;
 	float: left;
-	padding: 5px 10px;
+	padding: 0.5% 0.5% 0.5% 0.5%;
 	color: #000000;
 	text-decoration: none;
 	border-right: 1px solid #f4f4f4;
