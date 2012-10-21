@@ -1,1 +1,1 @@
-web: gunicorn brighton:app -b 0.0.0.0:$PORT -w 3
+web: gunicorn chicagolug:app -b 0.0.0.0:$PORT -w 3
