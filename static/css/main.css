@@ -158,8 +158,7 @@ div#menu li.meetings a {
 }
 
 div#menu li.meetings a.feed {
-    margin-left: 1px;
-    margin-top: 1px;
+    margin-left: 2px;
 }
 
 div#aside {
@@ -172,6 +171,17 @@ div#aside {
 }
 
 #aside h3 { margin: 0; }
+
+div#social {
+  float: right;
+  width: 25%;
+	padding: 2% 0;
+	margin: 0 2% 0 0;
+	display: inline;
+  font-family: 'Open Sans', sans-serif;   
+}
+
+#social h3 { margin: 0; }
 
 div#footer {
 	  clear: left;
@@ -242,13 +252,6 @@ div.twtr-widget h3,
 div.twtr-widget h4,
 div.twtr-widget h5 {
     border: 0;
-}
-
-#social {
-    width: 225px;
-    float: left;
-    padding-right: 5px;
-    border-right: 1px solid #DDD;
 }
 
 #googlegroup {
