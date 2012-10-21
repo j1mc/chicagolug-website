@@ -61,6 +61,7 @@ div#header {
 div#header h1 {
   margin: 0;
   color: #FAFAFA;
+  font-family: 'Open Sans', sans-serif;
 }
 
 div#menu {
@@ -99,9 +100,9 @@ div#menu li a:hover
   color: #FAFAFA
 }
 
-h1, h2, h3, h4 {
+/** h1, h2, h3, h4 {
     font-weight: bold;
-}
+} **/
 
 h2, h3, h4 {
     border-bottom: 1px solid #DDD;
