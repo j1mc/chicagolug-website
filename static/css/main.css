@@ -185,6 +185,8 @@ div#footer {
     color: #FAFAFA;
 }
 
+#footer a { color: #FAFAFA; }
+
 div.vevent {
     margin-bottom: 20px;
     border-left: 1px dotted #000;
