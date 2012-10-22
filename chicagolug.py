@@ -82,7 +82,7 @@ def page(path):
 
 @app.route('/meetings.atom')
 def feed():
-    feed = AtomFeed('ChicagoLUG Events', feed_url=request.url, url=request.url_root)
+    feed = AtomFeed('ChicagoLUG Meetings and Events', feed_url=request.url, url=request.url_root)
     for meeting in reversed(get_meetings()):
         # A little hack
         date = meeting['datetime'] - timedelta(weeks=1)
