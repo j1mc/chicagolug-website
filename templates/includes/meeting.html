@@ -11,5 +11,7 @@
     <p class="summary">
         <a href="{{ url_for("meeting", date=meeting.path) }}">{{ meeting.title }}</a>
     </p>
-    <div class="description">{{ meeting.speaker }}</div>
+    <div class="description">
+      <p>{{meeting.shortdesc}}</p>
+    </div>
 </div>
