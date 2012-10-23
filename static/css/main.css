@@ -244,13 +244,6 @@ div.past_meeting p:last-child {
     margin-bottom: 0;
 }
 
-/** 
-    elsewhere renamed to aside and social - no longer needed - 10-21-2012
-    
-div.elsewhere h3 {
-    border: 0;
-} **/
-
 div.twtr-widget h1,
 div.twtr-widget h2,
 div.twtr-widget h3,
