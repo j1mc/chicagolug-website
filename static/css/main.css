@@ -180,7 +180,6 @@ div#social {
 	padding: 2% 0;
 	margin: 0 2% 0 0;
 	display: inline;
-
   font-family: 'Open Sans', sans-serif;   
 }
 
@@ -192,16 +191,16 @@ div#social {
 div#footer {
 	  clear: left;
     width: 90%;
-    background: #704d44;
+    background: #f4f4f4;
     margin: 0 auto;
     height: 1%;
     padding: 5px;
     text-align: right;
     font-family: 'Open Sans', sans-serif;
-    color: #FAFAFA;
+    color: #704d44;
 }
 
-#footer a { color: #FAFAFA; }
+#footer a { color: #704d44; }
 
 div.vevent {
     margin-bottom: 20px;
