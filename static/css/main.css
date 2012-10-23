@@ -202,6 +202,16 @@ div#footer {
 
 #footer a { color: #704d44; }
 
+#googlegroup {
+    width: 220px;
+    float: left;
+    margin-left: 5px;
+}
+
+#googlegroup h4 {
+    border-bottom: 0;
+}
+
 div.vevent {
     margin-bottom: 20px;
     border-left: 1px dotted #000;
@@ -252,12 +262,4 @@ div.twtr-widget h5 {
     border: 0;
 }
 
-#googlegroup {
-    width: 220px;
-    float: left;
-    margin-left: 5px;
-}
 
-#googlegroup h4 {
-    border-bottom: 0;
-}
