@@ -49,6 +49,23 @@ def future_meetings():
     now = datetime.datetime.now()
     return [meeting for meeting in meeting_list if meeting['datetime'] > now]
 
+def get_location(path):
+    """Get a location from the filesystem"""
+    location = get_page(app.config['LOCATIONS_DIR'], path)
+    if location is not None:
+        location['location'] = location
+    return location
+
+def get_locations():
+    """Return a list of all locations"""
+    files = os.listdir(os.path.abspath(os.path.join(os.path.dirname(__file__), app.config['LOCATIONS_DIR'])))
+    locations = filter(lambda location: location is not None, [get_location(file) for file in files])
+    return sorted(locations, key=lambda item: item['location'])
+
+def all_locations():
+    location_list = get_locations()
+    return [location for location in location_list]
+
 @app.route('/')
 def index():
     return render_template('homepage.html', future_meeting_list=future_meetings())
@@ -95,6 +112,20 @@ def feed():
             published=date
         )
     return feed.get_response()
+
+@app.route('/locations/')
+def locations():
+    return render_template(
+        'locations.html',
+        location_list=all_locations()
+    )
+
+@app.route('/locations/<path>/')
+def location(path):
+    location = get_locations(app.config['LOCATIONS_DIR'], path)
+    if location is None:
+        abort(404)
+    return render_template('location.html', location=location)
 
 @app.errorhandler(404)
 def page_not_found(error):

@@ -1,0 +1,10 @@
+  <div class="location">
+        <h2>{{ location.locname }}</h2>
+        <p>
+            <strong>Address</strong>: {{ location.locaddress }} - (
+            <a href="{{ location.mapurl }}">map</a>)<br/>
+            <strong>Website</strong>: <a href="{{ location.locurl }}"{{ location.locurl }}</a><br/>
+            <strong>Notes</strong>: {{ location.locnotes }}
+        </p>
+        {{ location.content }}
+    </div>
