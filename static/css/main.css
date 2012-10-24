@@ -55,7 +55,6 @@ div#header h1 {
 }
 
 div#menu {
-	padding: 0 0.5% 0 0.5% ;
 	float: left;
 	width: 100%;
 	background: #f4f4f4;
@@ -73,13 +72,15 @@ div#menu ul li
 {
 	list-style-type: none;
 	display: inline;
+	margin: 0;
+	padding: 0;
 }
 
 div#menu li a
 {
 	display: block;
 	float: left;
-	padding: 0.5% 0.5% 0.5% 0.5%;
+	padding: 5px 10px;
 	color: #000000;
 	text-decoration: none;
 	border-right: 1px solid #f4f4f4;
