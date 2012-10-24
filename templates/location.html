@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Location : {{ location.locname }}{% endblock %}
+
+{% block content %}
+    <div class="meeting">
+        <h2>{{ location.locname }}</h2>
+        <p>
+            <strong>Address</strong>: {{ location.locaddress }} - (
+            <a href="{{ location.locmap }}">map</a> )<br/>
+            <strong>Website</strong>: <a href="{{ location.locurl }}">{{ location.locurl }}</a><br/>
+            <strong>Notes</strong>: {{ location.locnotes }}
+        </p>
+        {{ location.content }}
+    </div>
+{% endblock %}
