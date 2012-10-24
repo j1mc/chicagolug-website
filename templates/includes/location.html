@@ -1,5 +1,7 @@
 <div class="vevent">
-        <p><strong>{{ location.locname }}</strong></p>
+    <p class="summary">
+        <a href="{{ url_for("location", path=location.path) }}">{{ location.locname }}</a>
+    </p>
         <p>
             <strong>Address</strong>: {{ location.locaddress }} - (
             <a href="{{ location.locmap }}">map</a> )<br/>
