@@ -55,6 +55,7 @@ div#header h1 {
 }
 
 div#menu {
+	padding: 0 1% 0.5% 0;
 	float: left;
 	width: 100%;
 	background: #f4f4f4;
