@@ -122,7 +122,7 @@ def locations():
 
 @app.route('/locations/<path>/')
 def location(path):
-    location = get_locations(app.config['LOCATIONS_DIR'], path)
+    location = get_location(path)
     if location is None:
         abort(404)
     return render_template('location.html', location=location)
