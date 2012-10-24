@@ -15,9 +15,9 @@
 
     <p>ChicagoLUG meetings and events usually take place at a local 
     technology cooperative or coffee shop, and we conveniently list all of our 
-    <a href="{{ url_for('page', path='locations') }}">locations</a>. 
-    Keep an eye on this site and our <a href="http://twitter.com/chicagolug">
-    Twitter feed</a> for announcements.</p>
+    common <a href="{{ url_for('locations') }}">meeting locations</a>. 
+    Keep an eye on this site and any of our social media outlets for 
+    announcements.</p>
 
     {% for meeting in future_meeting_list %}
         {% include "includes/meeting.html" %}
@@ -30,7 +30,7 @@
 		  	  <img src="static/images/chicagolug-logo.png" alt="ChicagoLUG logo" 
 			    style="border:0;width:250px;height:250px;"/>
 		      <h3>
-		        Chicago Tux can hack . . . 
+		        Chicago Tux knows Linux . . . 
 		      </h3>
 		</div>
 		<div id="social">
@@ -51,12 +51,12 @@ style="border:0;width:32px;height:32px;"/></a>
 <!---        <div id="googlegroup">
             <h3>Join our Google Group</h3>
             <img src="http://groups.google.com/intl/en/images/logos/groups_logo_sm.gif" height=30 width=140 alt="Google Groups">
-            <h4>Subscribe to Brighton and Hove Python User Group</h4>
-            <form action="http://groups.google.com/group/brightonpy/boxsubscribe">
+            <h4>Subscribe to Chicago GNU/Linux User Group</h4>
+            <form action="groups.google.com/group/chicagolinux-discuss/boxsubscribe">
                 <p><label for="google_email">Email: </label><input id="google_email" type=text name=email /></p>
                 <p><input type=submit name="sub" value="Subscribe" /></p>
             </form>
-            <p><a href="http://groups.google.com/group/brightonpy">Visit this group</a></p>
+            <p><a href="groups.google.com/group/chicagolinux-discuss">Visit this group</a></p>
         </div>
 --->
     </div>
