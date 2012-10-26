@@ -113,6 +113,14 @@ div.meeting ul {
     margin-bottom: 1.5em;
 }
 
+div#generic-content-container {
+	clear: left;
+	float: left;
+	padding: 1.5% 0;
+	margin: 0 0 0 2%;
+	display: inline;
+  font-family: 'Open Sans', sans-serif;
+}
 
 div#content-container {
     width: 100%;
@@ -123,7 +131,7 @@ div#content {
 	clear: left;
 	float: left;
 	width: 65%;
-	padding: 2% 0;
+	padding: 1.5% 0;
 	margin: 0 0 0 2%;
 	display: inline;
   font-family: 'Open Sans', sans-serif;
