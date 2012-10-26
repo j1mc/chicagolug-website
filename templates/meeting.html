@@ -3,6 +3,7 @@
 {% block title %}Meeting : {{ meeting.title }}{% endblock %}
 
 {% block content %}
+  <div id="generic-content-container">
     <div class="meeting">
         <h2>{{ meeting.title }}</h2>
         <p>
@@ -14,4 +15,5 @@
         </p>
         {{ meeting.content }}
     </div>
+  </div>
 {% endblock %}

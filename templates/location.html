@@ -3,6 +3,7 @@
 {% block title %}Location : {{ location.locname }}{% endblock %}
 
 {% block content %}
+  <div id="generic-content-container">
     <div class="meeting">
         <h2>{{ location.locname }}</h2>
         <p>
@@ -13,4 +14,5 @@
         </p>
         {{ location.content }}
     </div>
+  </div>
 {% endblock %}
