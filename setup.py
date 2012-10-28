@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='chicagolug-flask',
+setup(name='chicagolugflask',
       version='1.0',
       description='ChicagoLUG website on OpenShift',
       author='Jim Campbell',
