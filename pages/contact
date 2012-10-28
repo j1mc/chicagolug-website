@@ -1,0 +1,60 @@
+title: Contact
+---
+
+You can get in touch with members of the Chicago LUG through our mailing list,
+on IRC, or any of our social media outlets.
+
+
+<h4>Mailing List</h4>
+<div class="vevent">
+
+Subscribe to the ChicagoLUG Mailing List, or <a href="http://groups.google.com
+/group/chicagolinux-discuss">view the archives</a>. Our mailing list is hosted
+by Google Groups.
+
+<form action="http://groups.google.com/group/chicagolinux-discuss/boxsubscribe">
+<p><label for="google_email">Email: </label><input id="google_email" type=
+text name=email /><input type=submit name="sub" value="Subscribe" /></p>
+</form>
+</div>
+
+<h4>Social Media</h4>
+<div class="vevent">
+
+Announcements about meetings and events will be posted to our various social
+media outlets.
+
+<ul>
+<li>
+<a href="https://plus.google.com/110920643277848720575?prsrc=3" rel="publisher" 
+style="text-decoration:none;">Google Plus</a>
+</li>
+<li>
+<a href="https://twitter.com/chicagolug" style="text-decoration:none;">Twitter
+</a>
+</li>
+<li>
+<a href="https://identi.ca/chicagolug" style="text-decoration:none;">Identi.ca
+</a>
+</li>
+</ul>
+</div>
+
+<h4>Inter-Relay Chat (IRC)</h4>
+<div class="vevent">
+<p>
+We use the #chiglug channel on the OFTC IRC network for informal
+conversations. Clicking on the link below will open a new tab, bringing you
+into our IRC channel via the <em>Mibbit</em> IRC service.
+</p>
+<p>
+Note that you may see names of other people in this channel, but they may just
+be idling. In other words, don't be surprised if you don't get a response right
+away. People will chat (or not chat) in this channel at any hour of the day or
+night.
+</p>
+<p>
+IRC Link
+</p>
+</div>
+</div>
