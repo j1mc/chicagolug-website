@@ -1,4 +1,6 @@
 *.swp
 *.pyc
+*.pyo
 env/
 venv
+

@@ -1,5 +1,4 @@
 from setuptools import setup
-
 setup(name='chicagolugflask',
       version='1.0',
       description='ChicagoLUG website on OpenShift',
