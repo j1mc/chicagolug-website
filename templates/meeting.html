@@ -9,7 +9,7 @@
         <p>
             <strong>Time and location</strong>: {{ 
             meeting.datetime|datetimeformat("%A %B %d, %Y, %H:%M")}} at
-            <a href="{{ url_for("page", path="locations") }}">{{ meeting.venue 
+            <a href="{{ url_for('locations') }}">{{ meeting.venue 
             }}</a><br/>
             <strong>Speakers</strong>: {{ meeting.speaker }}
         </p>
