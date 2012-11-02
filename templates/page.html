@@ -1,8 +1,10 @@
 {% extends "base.html" %}
 
 {% block title %}{{ page.title }}{% endblock %}
-
+<div id="generic-content-container">
 {% block content %}
     <h2>{{ page.title }}</h2>
     {{ page.content }}
 {% endblock %}
+</div>
+

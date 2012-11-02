@@ -32,14 +32,6 @@ body {
   background-color:#FAFAFA;
 }
 
-div#container
-{
-	margin: 0 auto;
-	width: 90%;
-	background: #FAFAFA;
-}
-
-
 div#header {
 	padding: 0.5% 0.5% 0.5% 0.5% ;
   float: left;
@@ -56,9 +48,8 @@ div#header h1 {
 }
 
 div#menu {
-	padding: 0.0% 0.5% 0.0% 0.5% ;
 	float: left;
-	width: 100%;
+	width: 101%;
 	overflow: auto;
 	background: #f4f4f4;
 	font-family: 'Open Sans', sans-serif;
@@ -66,7 +57,6 @@ div#menu {
 
 div#menu ul
 {
-	width: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -106,17 +96,11 @@ ul {
     margin: 0;
 }
 
-div.meeting ul {
-    margin-bottom: 1.5em;
-}
-
-div#menu li.meetings a {
-    display: block;
-    float: left;
-}
-
-div#menu li.meetings a.feed {
-    margin-left: 2px;
+div#container
+{
+	margin: 0 auto;
+	width: 90%;
+	background: #FAFAFA;
 }
 
 div#content-container {
@@ -133,13 +117,24 @@ div#generic-content-container {
   font-family: 'Open Sans', sans-serif;
 }
 
+div.meeting ul {
+    margin-bottom: 1.5em;
+}
+
+div#menu li.meetings a {
+    display: block;
+    float: left;
+}
+
+div#menu li.meetings a.feed {
+    margin-left: 2px;
+}
+
 
 div#content {
 	clear: left;
 	float: left;
 	width: 65%;
-	padding: 1.5% 0;
-	margin: 0 0 0 2%;
 	display: inline;
   font-family: 'Open Sans', sans-serif;
 }
