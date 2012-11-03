@@ -60,11 +60,11 @@ def get_locations():
     """Return a list of all locations"""
     files = os.listdir(os.path.abspath(os.path.join(os.path.dirname(__file__), app.config['LOCATIONS_DIR'])))
     locations = filter(lambda location: location is not None, [get_location(file) for file in files])
-    return sorted(locations, key=lambda item: item['location'])
+    return (locations)
 
 def all_locations():
     location_list = get_locations()
-    return [location for location in location_list]
+    return sorted([location for location in location_list])
 
 @app.route('/')
 def index():
@@ -144,5 +144,5 @@ def redirect_from_epio():
         return redirect('http://chicagolug.org' + request.path, 301)
 
 if __name__ == '__main__':
-    app.debug = False
+    app.debug = True
     app.run()
