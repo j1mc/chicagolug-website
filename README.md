@@ -1,4 +1,4 @@
-The Chicaggo GNU/Linux User Group Website
+The Chicago GNU/Linux User Group Website
 ===============================================
 
 A very simple database-free website using the [Flask microframework](http://flask.pocoo.org).
