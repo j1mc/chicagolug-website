@@ -22,7 +22,7 @@
         {% include "includes/meeting.html" %}
     {% else %}
         <p>No meetings currently planned. <a href="{{ url_for('meetings') }}">
-        Click here for past meetings</a>.</p>
+        Click here for past meetings.</a></p>
     {% endfor %}
     </div>
     <div id="aside">
