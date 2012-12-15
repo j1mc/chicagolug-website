@@ -1,7 +1,7 @@
 import os
 import yaml
 import datetime
-import markdown
+import misaka as m
 from urlparse import urljoin
 from datetime import timedelta
 from werkzeug import secure_filename
@@ -22,7 +22,7 @@ def get_page(directory, file):
         return None
     data, text = file_contents.split('---\n', 1)
     page = yaml.load(data)
-    page['content'] = Markup(markdown.markdown(text))
+    page['content'] = Markup(m.html(text))
     page['path'] = file
     return page
 
@@ -63,8 +63,15 @@ def get_locations():
     return (locations)
 
 def all_locations():
-    location_list = get_locations()
-    return sorted([location for location in location_list])
+    locsDict = {}
+    locs = []
+    for l in get_locations():
+        locsDict[l["locorder"]] = l
+
+    for l in locsDict:
+        locs.append(locsDict[l])
+
+    return locs
 
 @app.route('/')
 def index():
@@ -144,5 +151,5 @@ def redirect_from_epio():
         return redirect('http://chicagolug.org' + request.path, 301)
 
 if __name__ == '__main__':
-    app.debug = False
+    app.debug = True
     app.run()
