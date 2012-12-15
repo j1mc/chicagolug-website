@@ -151,5 +151,5 @@ def redirect_from_epio():
         return redirect('http://chicagolug.org' + request.path, 301)
 
 if __name__ == '__main__':
-    app.debug = True
+    app.debug = False
     app.run()
