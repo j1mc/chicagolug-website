@@ -1,4 +1,0 @@
-flask==0.8
-misaka==1.0.2
-pyyaml==3.10
-gunicorn==0.14.2
