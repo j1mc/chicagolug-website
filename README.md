@@ -11,7 +11,7 @@ How to install and run locally
 (Assumes you have Pip, virtualenv and virtualenvwrapper installed).
 
     git clone http://gitorious.org/chicagolug-org/chicagolug-flask
-    # Yes, the primary code-host is gitorious.org. Github is just a mirror.
+    # Yes, gitorious.org is the primary code-host. Github is just a mirror.
     cd chicagolug-flask
     virtualenv venv
     source venv/bin/activate
