@@ -1,5 +1,5 @@
 The Chicago GNU/Linux User Group Website
-===============================================
+========================================
 
 A very simple database-free website using the [Flask microframework](http://flask.pocoo.org).
 
@@ -11,10 +11,12 @@ How to install and run locally
 (Assumes you have Pip, virtualenv and virtualenvwrapper installed).
 
     git clone http://gitorious.org/chicagolug-org/chicagolug-flask
+    # Yes, the primary code-host is gitorious.org. Github is just a mirror.
     cd chicagolug-flask
-    mkvirtualenv chicagolug
-    pip install -E chicagolug -r requirements.txt
-    python chicagolug.py
+    virtualenv venv
+    source venv/bin/activate
+    pip install flask misaka PyYAML gunicorn
+    python wsgi/chicagolug.py
 
 The development server should now be running on [localhost:5000](http://localhost:5000)
 
