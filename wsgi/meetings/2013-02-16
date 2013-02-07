@@ -1,13 +1,17 @@
 speaker: TBD
 title: ChicagoLUG Meeting and GNOME Hackfest
 venue: Pumping Station One
-shortdesc: Speakers for this meeting are TBD.
+shortdesc: Meg Ford will be reporting on outcomes from the recent GNOME developer tools hackfest in Belgium, and we'll also have "That $Editor Moment," lightning talks where we can share how we're using Emacs or our favorite editor of choice. Think of some neat tips for using your favorite editor, and come ready to share them. It will be fun for the whole family.
 datetime: 2013-02-16 12:00
 ---
  
 Our next meeting is set for Saturday, January 19th, starting at 12:00pm.
-If you're interested in speaking, or if there is something that you'd like 
-someone else to speak about, please feel free to make a suggestion.
+Meg Ford will be reporting on the outcomes from the recent GNOME developer tools
+hackfest that in Belgium. There was a lot of discussion at the hackfest around
+GObject bindings, dynamic vs. statically typed languages, and debugging large
+applications written in dynamic languages.
+
+Following-up on Chris Webber's recent talk on Emacs, we'll also include time for lightning talks on how we're using Emacs (or our personal editor of choice). Show up ready to share a few tips.
 
 The event will be at Chicago's Pumping Station: One, located at 
 3519 North Elston in Chicago. Talks and speaking order are subject to change.
