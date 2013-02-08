@@ -1,19 +1,29 @@
-speaker: Meg Ford and (TBD)
+speaker: Meg Ford and Michael Larabel
 title: ChicagoLUG Meeting and GNOME Hackfest
 venue: Pumping Station One
-shortdesc: Meg Ford will report on outcomes from the recent GNOME developer tools hackfest in Belgium, and we'll have lightning talks where we can share how we're using Emacs or our favorite editor of choice.
+shortdesc: Meg Ford will report on outcomes from the recent GNOME developer tools hackfest, and Michael Larabel will bring us up to speed on Wayland.
 datetime: 2013-02-16 12:00
 ---
  
-Our next meeting is set for Saturday, January 19th, starting at 12:00pm.
-Meg Ford will be reporting on the outcomes from the recent GNOME developer tools
-hackfest that in Belgium. There was a lot of discussion at the hackfest around
-GObject bindings, dynamic vs. statically typed languages, and debugging large
-applications written in dynamic languages.
+Our next meeting is set for Saturday, January 19th, starting at 12:00pm, and We
+have a great set of talks lined up for this meeting.
 
-Following-up on Chris Webber's recent talk on Emacs, we'll also include time for lightning talks on how we're using Emacs (or our personal editor of choice). Show up ready to share a few tips.
+[Meg Ford](http://fordmeg.blogspot.com/) will be reporting on the outcomes from
+the recent GNOME developer tools hackfest in Belgium. There was much discussion
+at the hackfest around GObject bindings, dynamic vs. statically typed languages,
+and debugging large applications written in dynamic languages. Meg will provide
+the scoops on all of it.
 
-The event will be at Chicago's Pumping Station: One, located at 
+[Michael Larabel](http://www.michaellarabel.com/) will be giving a talk on the
+[Wayland](http://en.wikipedia.org/wiki/Wayland_(display_server_protocol\))
+Display Server. Michael has covered the development of Wayland as part of his
+reporting for [Phoronix](http://www.phoronix.com), and should have much to share
+with us. 
+
+Following-up on prior meetings, we may also include a lightning talk or two on
+Emacs. We will include these as time permits.
+
+As usual, the event will be at Chicago's Pumping Station: One, located at 
 3519 North Elston in Chicago. Talks and speaking order are subject to change.
 
 People of all ability levels are welcome to join us, learn more GNU/Linux, 
