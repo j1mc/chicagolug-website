@@ -7,9 +7,15 @@ from datetime import timedelta
 from werkzeug import secure_filename
 from werkzeug.contrib.atom import AtomFeed
 from flask import Flask, render_template, Markup, abort, redirect, url_for, request
+from flask.ext.bootstrap import Bootstrap
 
 app = Flask(__name__)
+Bootstrap(app)
+
 app.config.from_pyfile('settings.py')
+app.config['BOOTSTRAP_USE_MINIFIED'] = True
+app.config['BOOTSTRAP_USE_CDN'] = True
+app.config['BOOTSTRAP_FONTAWESOME'] = True
 
 def get_page(directory, file):
     """Load and parse a page from the filesystem. Returns the page, or None if not found"""
@@ -151,5 +157,5 @@ def redirect_from_epio():
         return redirect('http://chicagolug.org' + request.path, 301)
 
 if __name__ == '__main__':
-    app.debug = False
+    app.debug = True
     app.run()
