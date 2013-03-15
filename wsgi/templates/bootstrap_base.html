@@ -13,10 +13,10 @@
 
     {%- block style %}
     {%- if not config['BOOTSTRAP_CUSTOM_CSS'] %}
-    <link href="{{'../static/css/bootstrap.css'|bootstrap_find_resource}}" rel="stylesheet">
+    <link href="{{'css/bootstrap.css'|bootstrap_find_resource}}" rel="stylesheet">
     {%- endif %}
     {%- if config['BOOTSTRAP_FONTAWESOME'] %}
-    <link href="{{'../css/font-awesome.css'|bootstrap_find_resource(cdn='fontawesome')}}" rel="stylesheet">
+    <link href="{{'css/font-awesome.css'|bootstrap_find_resource(cdn='fontawesome')}}" rel="stylesheet">
     <!--[if IE 7]>
     <link rel="stylesheet" href="{{'css/font-awesome-ie7.css'|bootstrap_find_resource(use_minified=True, cdn='fontawesome')}}">
     <![endif]-->
@@ -54,7 +54,7 @@
     {%- if config['BOOTSTRAP_JQUERY_VERSION'] %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{config['BOOTSTRAP_JQUERY_VERSION']}}/jquery.{% if config['BOOTSTRAP_USE_MINIFIED'] %}min.{% endif %}js"></script>
     {%- endif %}
-    <script src="{{'../static/js/bootstrap.js'|bootstrap_find_resource}}"></script>
+    <script src="{{'js/bootstrap.js'|bootstrap_find_resource}}"></script>
     {%- endblock bootstrap_js_bottom %}
 
     {%- if config['BOOTSTRAP_GOOGLE_ANALYTICS_ACCOUNT'] %}

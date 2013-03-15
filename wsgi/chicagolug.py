@@ -46,11 +46,13 @@ def get_meetings():
     return sorted(meetings, key=lambda item: item['datetime'])
 
 def past_meetings():
+    """Return a list of all past meetings"""
     meeting_list = get_meetings()
     now = datetime.datetime.now()
     return [meeting for meeting in meeting_list if meeting['datetime'] < now]
 
 def future_meetings():
+    """Return a list of all future meetings"""
     meeting_list = get_meetings()
     now = datetime.datetime.now()
     return [meeting for meeting in meeting_list if meeting['datetime'] > now]
