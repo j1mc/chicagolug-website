@@ -1,7 +1,7 @@
-speaker: Evil Joel
+speaker: Evil Joel and Sten Turpin
 title: ChicagoLUG Meeting and GNOME Hackfest
 venue: Pumping Station One
-shortdesc: Joel Luellwitz will be presenting an Introduction to Linux Security. We still have room for one more speaker!
+shortdesc: Joel Luellwitz will be presenting an Introduction to Linux Security. Sten Turpin will take us through rolling back system changes.
 datetime: 2013-03-23 12:00
 ---
  
@@ -9,8 +9,7 @@ Our next meeting is set for Saturday, March 23rd, starting at 12:00pm. Joel Luel
 utilities, technologies and best practices concerning authentication and security. Part of his focus will be on
 what can go wrong if these tools are used improperly.
 
-We still have room for one presenter, so feel free to speak up if there's something you would like to talk about, or if
-there's something you'd like to learn more about.
+Sten's talk will walk us through rolling back system changes with yum, lvm and brfs. 
 
 People of all ability levels are welcome to join us, learn more GNU/Linux, 
 and contribute. If you have any questions, feel free to be in touch via our
