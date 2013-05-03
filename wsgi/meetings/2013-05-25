@@ -1,11 +1,36 @@
-speaker: TBD
+speaker: William Giokas (tentative)
 title: Chicago LUG May meeting and hackfest
 venue: Pumping Station One
 shortdesc: May meeting and hackfest of the Chicago GNU/Linux User Group
 datetime: 2013-05-25 12:00
 ---
  
-Our May meeting will be held on Saturday, May 25th at 
-[Pumping Station: One](http://chicagolug.org/locations/psone/). Meeting
-speakers and topics are still TBD at the moment, so feel free to suggest
-a talk on the [mailing list](https://groups.google.com/forum/?fromgroups#!forum/chicagolinux-discuss).
+We've scheduled our May meeting for `Saturday, May 25th`, starting at 12:00pm at 
+[Pumping Station: One](http://chicagolug.org/locations/psone/). We typically
+start at about noon, but early birds showing up by about 11:40 or so. If
+you're there early, just sit tight. If you show up late, please knock
+loudly on the door so we can hear you from upstairs.
+
+Speaking Topics
+---------------
+
+William Giokas is tentatively set to talk on [systemd](http://www.freedesktop.org/wiki/Software/systemd), 
+but we still have at least one open spot. Feel free to suggest a talk on the 
+[mailing list](https://groups.google.com/forum/?fromgroups#!forum/chicagolinux-discuss).
+
+Hacking
+-------
+
+As per usual, several of us will use some of the meeting time to hack on
+GNOME-related projects, but feel free to bring whatever project that you want
+to work on.
+
+If you need help with setting-up or fixing your computer, please let us know
+in advance so that we can plan accordingly.
+
+Foodstuffs
+----------
+
+Some funds for food and drink are supplied by the [GNOME Foundation](https://www.gnome.org/foundation/),
+but it's typically a good idea to bring a few dollars if you want to partake
+of pizza and drinks.
