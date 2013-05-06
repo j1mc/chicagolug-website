@@ -1,4 +1,4 @@
-speaker: William Giokas (tentative)
+speaker: William Giokas and George Lesica (both tentative)
 title: Chicago LUG May meeting and hackfest
 venue: Pumping Station One
 shortdesc: May meeting and hackfest of the Chicago GNU/Linux User Group - Talks include systemd and . . . TBD
@@ -15,15 +15,15 @@ Speaking Topics
 ---------------
 
 William Giokas is tentatively set to talk on [systemd](http://www.freedesktop.org/wiki/Software/systemd), 
-but we still have at least one open spot. Feel free to suggest a talk on the 
-[mailing list](https://groups.google.com/forum/?fromgroups#!forum/chicagolinux-discuss).
+and George Lesica is also tentatively set to speak on 
+[R](http://r-project.org). We will provide final confirmation as we get closer
+to the meeting date.
 
 Hacking
 -------
 
-As per usual, several of us will use some of the meeting time to hack on
-GNOME-related projects, but feel free to bring whatever project that you want
-to work on.
+As per usual, several of us will hack on GNOME-related projects, but feel free
+to bring whatever project that you want to work on.
 
 If you need help with setting-up or fixing your computer, please let us know
 in advance so that we can plan accordingly.
