@@ -1,7 +1,7 @@
 speaker: Sten Turpin
 title: Chicago LUG June meeting and hackfest
 venue: Pumping Station One
-shortdesc: June meeting and hackfest of the Chicago GNU/Linux User Group - Topics include OpenShift and . . . something else (TBD).
+shortdesc: June meeting and hackfest of the Chicago GNU/Linux User Group - "The Meeting of Open." Topics include OpenShift and OpenHelp.
 datetime: 2013-06-29 12:00
 ---
  
@@ -12,9 +12,11 @@ typically start showing up by about 11:40 or so. All are welcome.
 Speaking Topics
 ---------------
 
-Sten Turpin of Red Hat will be presenting on OpenShift, but we also have one
-additional speaking slot open. Feel free to speak up if there's something you'd
-like to talk on during this meeting.
+Sten Turpin of Red Hat will be presenting on OpenShift, Red Hat's new Platform
+as a Service offering. Also, Jim Campbell will be presenting on some highlights
+from the recent Open Help user help / user support conference in Cincinnati. 
+Jim's talk will also include a basic introduction to using Mallard, the
+documentation format used by the GNOME documentation project.
 
 Hacking
 -------
