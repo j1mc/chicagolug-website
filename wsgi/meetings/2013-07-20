@@ -1,4 +1,4 @@
-speaker: TBD
+speaker: William Giokas
 title: ChicagoLUG July meeting and hackfest
 venue: Pumping Station One
 shortdesc: July meeting and hackfest of the Chicago GNU/Linux User Group.
@@ -12,7 +12,13 @@ typically start showing up by about 11:40 or so. All are welcome.
 Speaking Topics
 ---------------
 
-TBD (aka,  you should suggest something on the mailing list)  
+[William Giokas](https://github.com/KaiSforza) will be giving a talk on the
+rolling release distribution, Arch Linux. Though William will provide an
+overview of Arch in general, he'll give special attention to the Arch Linux
+package manager, `pacman`.
+
+We still have one slot open, so feel free to be in touch if you'd like to
+speak on something.
 
 Hacking
 -------
