@@ -15,19 +15,22 @@
     gender, ethnicity, and knowledge levels. If you're curious about Linux and
     Free and open-source software, please consider joining us.</p> 
     
-    <h2>Upcoming Meetings</h2>
+    <h2>Meeting Information</h2>
 
     <p>ChicagoLUG meetings and events usually take place at a local 
-    technology cooperative or coffee shop. We conveniently list all of our 
-    common <a href="{{ url_for('locations') }}">meeting locations</a>. 
-    Keep an eye on this site and any of our social media outlets for 
-    meeting announcements.</p>
+    technology cooperative or coffee shop. Keep an eye on this site and any of
+    our social media outlets for meeting announcements.</p>
 
     {% for meeting in future_meeting_list %}
         {% include "includes/meeting.html" %}
     {% else %}
-        <p>No meetings currently planned. <a href="{{ url_for('meetings') }}">
-        Click here for past meetings</a>.</p>
+        <div class="meeting">
+        <h3>Next Meeting Date: <em>TBD</em></h3>
+        <p>Our next meeting has yet to be announced, which means we're likely
+        planning something <a href="https://groups.google.com/forum/#!forum/chicagolinux-discuss">
+        on the mailing list</a>. You can also have a look at our list of 
+        <a href="{{ url_for('meetings') }}">past meetings</a>.</p>
+        </div>
     {% endfor %}
     </div>
     <div id="aside">
