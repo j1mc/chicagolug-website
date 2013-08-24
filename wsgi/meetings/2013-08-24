@@ -1,7 +1,7 @@
-speaker: Bonnie King
+speaker: Bonnie King and Gregorie Thomas 
 title: ChicagoLUG August meeting and hackfest
 venue: Pumping Station One
-shortdesc: August meeting and hackfest of the Chicago GNU/Linux User Group. Our featured talk will cover Scientific Linux.
+shortdesc: August meeting and hackfest of the Chicago GNU/Linux User Group. Talks include Scientific Linux and server security.
 datetime: 2013-08-24 12:00
 ---
  
@@ -21,7 +21,7 @@ various other labs and universities around the world. Its primary purpose is to
 reduce duplicated effort of the labs, and to have a common install base for the
 various experimenters." 
 
-Additional details to follow as we get closer to the meeting date.
+Gregorie Thomas will also present on basic linux server security.
 
 Hacking
 -------
