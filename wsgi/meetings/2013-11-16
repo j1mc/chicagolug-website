@@ -13,14 +13,11 @@ All are welcome, and we look forward to seeing you there!
 Speaking Topics
 ---------------
 
-Erik Johnson will be providing a demonstration of
+Erik Johnson will be giving an introduction to
 [SaltStack](http://www.saltstack.com), a server orchestration and configuration
-tool. As a demonstration of its features, he'll take us through how we can use
-SaltStack on CentOS to configure and manage Ubuntu, OpenSUSE and FreeBSD
-servers.
-
-Erik is a Python Engineer with Salt Stack, and also organizes the Fox Valley
-Linux User Group in Aurora.
+tool. We'll learn how to use SaltStack on CentOS to configure and manage
+Ubuntu, OpenSUSE and FreeBSD servers. Erik is a Python Engineer with SaltStack,
+and also organizes the Fox Valley Linux User Group in Aurora.
 
 Our second speaker is still TBD. Please do let us know if you're interested in
 giving a talk this month.
