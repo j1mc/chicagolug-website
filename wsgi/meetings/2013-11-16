@@ -1,7 +1,7 @@
 speaker: Erik Johnson
 title: November meeting and hackfest
 venue: Pumping Station One
-shortdesc: Our primary presenter for this month is Erik Johnson, who will be giving a talk on SaltStack.
+shortdesc: Erik Johnson will talk about and demonstrate the features of SaltStack.
 datetime: 2013-11-16 14:30
 ---
 
@@ -17,10 +17,11 @@ Erik Johnson will be giving an introduction to
 [SaltStack](http://www.saltstack.com), a server orchestration and configuration
 tool. We'll learn how to use SaltStack on CentOS to configure and manage
 Ubuntu, OpenSUSE and FreeBSD servers. Erik is a Python Engineer with SaltStack,
-and also organizes the Fox Valley Linux User Group in Aurora.
+and also organizes the
+[Fox Valley Linux User Group](http://www.meetup.com/FoxValleyLUG/) in Aurora.
 
-Our second speaker is still TBD. Please do let us know if you're interested in
-giving a talk this month.
+We'll use our remaining time to work on the new version of the ChicagoLUG
+website.
 
 Hacking
 -------
@@ -34,6 +35,7 @@ in advance so that we can plan accordingly.
 Foodstuffs
 ----------
 
-Some funds for food and drink are supplied by the [GNOME Foundation](https://www.gnome.org/foundation/),
+Some funds for food and drink are supplied by the
+[GNOME Foundation](https://www.gnome.org/foundation/),
 but it's typically a good idea to bring a few dollars if you want to partake
 of pizza and drinks.
