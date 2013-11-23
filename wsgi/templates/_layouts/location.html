@@ -1,0 +1,10 @@
+<div class="vevent">
+    <p class="summary">
+        <a href="{{ url_for("location", path=location.path) }}">{{ location.locname }}</a>
+    </p>
+        <p>
+            <strong>Address</strong>: {{ location.locaddress }} - (
+            <a href="{{ location.locmap }}">map</a> )<br/>
+            <strong>Website</strong>: <a href="{{ location.locurl }}">{{ location.locurl }}</a><br/>
+        </p>
+    </div>
