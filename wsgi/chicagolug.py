@@ -7,9 +7,33 @@ from datetime import timedelta
 from werkzeug import secure_filename
 from werkzeug.contrib.atom import AtomFeed
 from flask import Flask, render_template, Markup, abort, redirect, url_for, request
+from flask.ext.assets import Environment, Bundle
 
 app = Flask(__name__)
 app.config.from_pyfile('settings.py')
+assets = Environment(app)
+assets_env = Environment()
+
+# Register asset bundles
+assets_env.init_app(app)
+
+common_css = Bundle(
+    "libs/bootstrap3/css/bootstrap.min.css",
+    "css/style.css",
+    filters="cssmin",
+    output="public/css/common.css"
+)
+
+common_js = Bundle(
+    "libs/jquery2/jquery-2.0.3.min.js",
+    "libs/bootstrap3/js/bootstrap.min.js",
+    "js/plugins.js",
+    Bundle(
+        "js/script.js",
+        filters="jsmin"
+    ),
+    output="public/js/common.js"
+)
 
 def get_page(directory, file):
     """Load and parse a page from the filesystem. Returns the page, or None if not found"""
@@ -74,7 +98,7 @@ def all_locations():
     return locs
 
 @app.route('/')
-def index():
+def home():
     return render_template('homepage.html', future_meeting_list=future_meetings())
 
 @app.route('/archive/')
