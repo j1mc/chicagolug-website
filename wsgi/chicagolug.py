@@ -1,7 +1,7 @@
 import os
 import yaml
 import datetime
-import misaka as m
+import markdown
 from urlparse import urljoin
 from datetime import timedelta
 from werkzeug import secure_filename
@@ -46,7 +46,7 @@ def get_page(directory, file):
         return None
     data, text = file_contents.split('---\n', 1)
     page = yaml.load(data)
-    page['content'] = Markup(m.html(text))
+    page['content'] = Markup(markdown.markdown(text))
     page['path'] = file
     return page
 
