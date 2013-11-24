@@ -1,9 +1,9 @@
 {% extends "_layouts/base.html" %}
 
-{% block title %}Location : {{ location.locname }}{% endblock %}
+{% block head_title %}Locations{% endblock %}
 
-{% block content %}
-    <div class="meeting">
+{% block body %}
+    <div class="span6">
         <h2>{{ location.locname }}</h2>
         <p>
             <strong>Address</strong>: {{ location.locaddress }} - (

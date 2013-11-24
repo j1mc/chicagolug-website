@@ -11,11 +11,10 @@
   <meta name="keywords" content="Chicago,LUG,Linux,User Group,Free Software,
   Open Source,Programming" />
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% assets "common_css" %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
   {% endassets %}
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/common.css') }}" />
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='libs/bootstrap3/css/bootstrap.css') }}" />
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='libs/bootstrap3/css/bootstrap.min.css') }}" />
@@ -26,9 +25,7 @@
   <link href="https://plus.google.com/110920643277848720575" rel="publisher" />
 
   <title>{% block page_title %}
-
     Chicago GNU/Linux User Group
-  
     {% endblock %}
   </title>
 </head>
@@ -37,5 +34,13 @@
 
 {% include "_layouts/nav.html" %}
 
+        {% block body_base %}
+            <div class="container">
+                {% block body %}
+                {% endblock %}
+            </div>
+        {% endblock %}
+
+{% include "_layouts/footer.html" %}
 </body>
 </html>

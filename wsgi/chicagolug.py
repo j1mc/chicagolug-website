@@ -99,12 +99,7 @@ def all_locations():
 
 @app.route('/')
 def home():
-    return render_template('homepage.html', future_meeting_list=future_meetings())
-
-@app.route('/archive/')
-def archive():
-    """Legacy URL"""
-    return redirect(url_for('meetings'))
+    return render_template('home.html', future_meeting_list=future_meetings())
 
 @app.route('/meetings/')
 def meetings():
@@ -175,5 +170,5 @@ def redirect_from_epio():
         return redirect('http://chicagolug.org' + request.path, 301)
 
 if __name__ == '__main__':
-    app.debug = False
+    app.debug = True
     app.run()

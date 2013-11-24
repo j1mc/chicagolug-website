@@ -1,8 +1,9 @@
 {% extends "_layouts/base.html" %}
 
-{% block title %}ChicagoLUG Locations{% endblock %}
+{% block head_title %}ChicagoLUG Locations{% endblock %}
 
-{% block content %}
+{% block body %}
+
     <h2>Location List</h2>
     {% for location in location_list %}
     	{% include "includes/location.html" %}

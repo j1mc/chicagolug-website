@@ -1,10 +1,13 @@
 {% extends "_layouts/base.html" %}
 
-{% block title %}{{ page.title }}{% endblock %}
-<div id="generic-content-container">
+{% block head_title %}{{ page.title }}{% endblock %}
+
+{% block body %}
+
+<div class="span6">
 {% block content %}
     <h2>{{ page.title }}</h2>
     {{ page.content }}
 {% endblock %}
 </div>
-
+{% endblock %}

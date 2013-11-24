@@ -1,8 +1,9 @@
 {% extends "_layouts/base.html" %}
 
-{% block title %}Meeting Archive{% endblock %}
+{% block head_title %}Meeting Archive{% endblock %}
 
-{% block content %}
+{% block body %}
+
     <h2>Future Meetings</h2>
     {% for meeting in future_meeting_list %}
         {% include "includes/meeting.html" %}
