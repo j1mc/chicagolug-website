@@ -15,7 +15,7 @@ How to install and run locally
     cd chicagolug-flask
     virtualenv venv
     source venv/bin/activate
-    pip install flask misaka PyYAML gunicorn
+    pip install flask markdown PyYAML gunicorn pygments
     python wsgi/chicagolug.py
 
 The development server should now be running on [localhost:5000](http://localhost:5000)
