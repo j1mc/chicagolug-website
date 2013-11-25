@@ -11,6 +11,7 @@ from flask.ext.assets import Environment, Bundle
 
 app = Flask(__name__)
 app.config.from_pyfile('settings.py')
+md = markdown.Markdown(extensions=['codehilite'])
 assets = Environment(app)
 assets_env = Environment()
 
