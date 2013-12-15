@@ -5,30 +5,31 @@
 {% block body_class %}home{% endblock %}
 
 {% block body %}
-
-    <header id="home-header" class="row-fluid">
-        <div class="span6">
-              <h3>GNU/Linux + Free/Libre & Open Source Software + Fun</h3>
-              <p>We are a group of technology and Free software enthusiasts who
-              live in and around Chicago, Illinois. While our group primarily
-              focuses on GNU/Linux, our members have a broad range of interests
-              and experience, and our ranks include users of all major (and
-              less major) operating systems.</p>
-              
-              <p>We are also a welcoming group. We are a group that welcomes
-              everyone and encourages diversity; we encourage participation
-              from members of all age, gender, ethnicity, and knowledge levels.
-              If you're curious about Linux and Free and open-source software,
-              consider joining us.</p>
-        </div>
-        <div class="span6" class="row-fluid">
-            <img src="static/images/chicagolug-logo.png" alt="ChicagoLUG logo">
-        </div>
-        <div class="span6" class="row-fluid">
+  <div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+      <h3>GNU/Linux + Free/Libre & Open Source Software + Fun</h3>
+      <p>We are a group of technology and Free software enthusiasts who
+      live in and around Chicago, Illinois. While our group primarily
+      focuses on GNU/Linux, our members have a broad range of interests
+      and experience, and our ranks include users of all major (and
+      less major) operating systems.</p>
+        
+      <p>We are also a welcoming group. We are a group that welcomes
+      everyone and encourages diversity; we encourage participation
+      from members of all age, gender, ethnicity, and knowledge levels.
+      If you're curious about Linux and Free and open-source software,
+      consider joining us.</p>
+    </div>
+  </div>
+  
+  <div class="row clearfix">
+		<div class="col-md-8 column">
         {% for meeting in future_meeting_list %}
         {% include "includes/meeting.html" %}
     {% else %}
-        <div class="span6" class="row-fluid">
+  <div class="row clearfix">
+		<div class="col-md-8 column">
         <h3>Next Meeting Date: <em>TBD</em></h3>
         <p>Our next meeting has yet to be announced, which means we're likely
         planning something <a href="https://groups.google.com/forum/#!forum/chicagolinux-discuss">
@@ -36,47 +37,23 @@
         <a href="{{ url_for('meetings') }}">past meetings</a>.</p>
         </div>
     {% endfor %}
-    </header>
+      </div>
+    </div>
+        <div class="span4" class="row-fluid">
+          <div class="media">
+          <img src="static/images/chicagolug-logo.png" class="media-object" 
+          alt="ChicagoLUG logo">
+            <h4 class="media-heading">
+			      Chicago Tux knows Linux . . . </h4>
+			    </div>
+			  </div>
+    </div>
 
+
+    </div>
     </div><!-- #row-fluid -->
     <hr>
-<!--<div id="content">
-    <h2>GNU/Linux + Free/Libre & Open Source Software + Fun</h2>
-    <p>We are a group of technology and Free software enthusiasts who live in 
-    and around Chicago, Illinois. While our group primarily focuses on 
-    GNU/Linux, our members have a broad range of interests and experience, and
-    our ranks include users of all major (and less major) operating systems.</p>
-    
-    <p>We are also a welcoming group. We are a group that welcomes everyone and
-    encourages diversity; we encourage participation from members of all age,
-    gender, ethnicity, and knowledge levels. If you're curious about Linux and
-    Free and open-source software, consider joining us.</p> 
-    
-    <h2>Meeting Information</h2>
-
-    <p>ChicagoLUG meetings and events usually take place at a local 
-    technology cooperative or coffee shop. Keep an eye on this site and any of
-    our social media outlets for meeting announcements.</p>
-
-    {% for meeting in future_meeting_list %}
-        {% include "includes/meeting.html" %}
-    {% else %}
-        <div class="meeting">
-        <h3>Next Meeting Date: <em>TBD</em></h3>
-        <p>Our next meeting has yet to be announced, which means we're likely
-        planning something <a href="https://groups.google.com/forum/#!forum/chicagolinux-discuss">
-        on the mailing list</a>. You can also have a look at our list of 
-        <a href="{{ url_for('meetings') }}">past meetings</a>.</p>
-        </div>
-    {% endfor %}
-    </div>
-    <div id="aside">
-		  	  <img src="static/images/chicagolug-logo.png" alt="ChicagoLUG logo" 
-			    style="padding:5px 2px 0px 2px;width:250px;height:250px;"/>
-		      <h3>
-		        Chicago Tux knows Linux . . . 
-		      </h3>
-		 </div>
+<!--
 		<div id="social">
 			<h3>
 				ChicagoLUG on Social Media

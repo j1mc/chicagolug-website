@@ -16,9 +16,10 @@
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
       <li><a href="{{ url_for('home') }}">Home</a></li>
+      <li><a href="{{ url_for('meetings') }}">Meetings</a></a>
+       <li><a href="{{ url_for('posts') }}">Blog</a></a>     
       <li><a href="{{ url_for('page', path='contact') }}">Contact</a></li>
       <li><a href="{{ url_for('locations') }}">Locations</a></li>
-      <li><a href="{{ url_for('meetings') }}">Meetings</a></a>
       <li><a href="{{ url_for('feed') }}" title="ChicagoLUG Events Atom Feed">
       <img src="{{ url_for('static', filename='images/atom.png') }}" alt="ChicagoLUG Events Atom Feed" />
       </a>
