@@ -18,6 +18,8 @@ packaged and used in Scientific Linux.
 Jeff Schroeder will also discuss the [Graphite Project] [2]. Graphite stores
 numeric time-series data, and render graphs of this data on demand.
 
+Update: Bonnie's talk in (ODF format) is [available here] [3].
+
 Hacking . . . we will have none. Festivities, we will have them.
 ----------------------------------------------------------------
 
@@ -35,3 +37,4 @@ of pizza and drinks.
 [0]: http://chicagolug.org/locations/psone/
 [1]: http://www.zdnet.com/keeping-your-red-hat-enterprise-linux-current-7000020688/
 [2]: http://graphite.wikidot.com/start
+[3]: ../../static/files/2013-12-15-bonnie-king-software-collections.odp
