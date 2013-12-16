@@ -1,10 +1,10 @@
-<div class="vevent">
-    <p class="summary">
-        <a href="{{ url_for("location", path=location.path) }}">{{ location.locname }}</a>
-    </p>
-        <p>
-            <strong>Address</strong>: {{ location.locaddress }} - (
-            <a href="{{ location.locmap }}">map</a> )<br/>
-            <strong>Website</strong>: <a href="{{ location.locurl }}">{{ location.locurl }}</a><br/>
-        </p>
-    </div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <a href="{{ url_for("location", path=location.path) }}">{{ location.locname }}</a>
+  <div class="panel-body">
+    <strong>Address</strong>: {{ location.locaddress }} - (
+    <a href="{{ location.locmap }}">map</a> )<br/>
+    <strong>Website</strong>: <a href="{{ location.locurl }}">{{ location.locurl }}</a><br/>
+  </div>
+  </br>
+</div>

@@ -3,11 +3,15 @@
 {% block head_title %}ChicagoLUG Locations{% endblock %}
 
 {% block body %}
-
-    <h2>Location List</h2>
+<div class="page-header">
+  <h2>Typical Locations</br>
+  <small>The places where we typically meet or hang out</small></h2>
+  </div>
+    <div class="panel-body">
     {% for location in location_list %}
     	{% include "includes/location.html" %}
     {% else %}
-        <p>There is nowhere for the LUG to meet and we are sad.</p>
+      <p>There is nowhere for the LUG to meet and we are sad.</p>
     {% endfor %}
 {% endblock %}
+</div>

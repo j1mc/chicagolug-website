@@ -3,18 +3,33 @@
 {% block head_title %}Meeting Archive{% endblock %}
 
 {% block body %}
-
-    <h2>Future Meetings</h2>
+<div class="page-header">
+  <h1>ChicagoLUG Activities</br>
+  <small>Our list of meetings, hackfests, events and conferences</small>
+  </h1>
+  </div>
     {% for meeting in future_meeting_list %}
-        {% include "includes/meeting.html" %}
+      {% include "includes/meeting.html" %}
     {% else %}
-        <p>Our next meeting has yet to be announced.</p>
+      <h2>Next Meeting Date: TBD</br>
+      <small>Wait. The next meeting hasn't been announced yet? How is that
+      possible?</small></h2>
+      <p>Indeed, it's true. Our next meeting has yet to be announced, but don't
+      fret. It just means we're likely planning something 
+      <a href="https://groups.google.com/forum/#!forum/chicagolinux-discuss">
+      on the mailing list</a>. Please join our discussion there, and let us
+      know if you're interested in speaking at a future meeting.</p>
+      
+      <p>In the meantime, you can also feel free to have a look at our past
+      meetings from the list below.</p>
     {% endfor %}
 
     <h2>Past Meetings</h2>
+    <div class="panel-body">
     {% for meeting in past_meeting_list %}
         {% include "includes/meeting.html" %}
     {% else %}
         <p>No past meetings.</p>
     {% endfor %}
 {% endblock %}
+</div>

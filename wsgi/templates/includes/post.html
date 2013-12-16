@@ -1,13 +1,10 @@
-<div class="vevent">
-    <p>
-        <abbr class="dtstart" title="{{ post.datetime|datetimeformat("%Y-%m-%dT%H:%M00") }}">
-            {{ post.datetime|datetimeformat("%A %B %d, %Y, %H:%M")}}
-        </abbr>
-    </p>
-    <p class="summary">
-        <a href="{{ url_for("post", date=post.path) }}">{{ post.title }}</a>
-    </p>
-    <div class="description">
-      <p>{{post.shortdesc}}</p>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h2><a href="{{ url_for("post", date=post.path) }}">{{ post.title }}</a></br>
+    <small>{{ post.subtitle }}</small></h2>
+    <div class="panel-body">
+    {{post.shortdesc}}</br>
+    <span class="badge">Posted:</span> {{ post.datetime|datetimeformat("%A %B %d, %Y, %H:%M")}}
     </div>
+  </div>
 </div>

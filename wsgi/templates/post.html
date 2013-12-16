@@ -1,17 +1,17 @@
 {% extends "_layouts/base.html" %}
-
 {% block title %}post : {{ post.title }}{% endblock %}
-
 {% block body %}
-    <div class="span6">
-        <h2>{{ post.title }}</h2>
-        <p>
-            <strong>Time and location</strong>: {{ 
-            post.datetime|datetimeformat("%A %B %d, %Y, %H:%M")}} at
-            <a href="{{ url_for('locations') }}">{{ post.venue 
-            }}</a><br/>
-            <strong>Speakers</strong>: {{ post.speaker }}
-        </p>
-        {{ post.content }}
-    </div>
+
+<div class="page-header">
+  <h1>{{ post.title }}</br>
+  <small>{{ post.subtitle }}</small></h1>
+</div>
+  <div class="panel-body">
+    {{ post.content }}
+  <div class="well well-sm">
+    <span class="badge">Posted By:</span> {{ post.author }} on
+    {{ post.datetime|datetimeformat("%A, %B %d, %Y, at %H:%M")}}
+  </div>
+  </div>
+</div>
 {% endblock %}
