@@ -12,7 +12,7 @@
 
   <div class="container">
 	<div class="row clearfix">
-		<div class="col-md-12 column">
+		<div class="col-md-8 column">
       <p class="lead">We are a group of technology and Free software enthusiasts
       who live in and around Chicago, Illinois. Our primary
       focus is on GNU/Linux, but our members have a broad range of interests
@@ -25,25 +25,7 @@
       If you're curious about Linux and Free and open-source software,
       consider joining us.</p>
     </div>
-  </div>
-  
-  <div class="row clearfix">
-		<div class="col-md-8 column">
-        {% for meeting in future_meeting_list %}
-        {% include "includes/meeting.html" %}
-    {% else %}
-  <div class="row clearfix">
-		<div class="col-md-8 column">
-        <h3>Next Meeting Date: <em>TBD</em></h3>
-        <p>Our next meeting has yet to be announced, which means we're likely
-        planning something <a href="https://groups.google.com/forum/#!forum/chicagolinux-discuss">
-        on the mailing list</a>. You can also have a look at our list of 
-        <a href="{{ url_for('meetings') }}">past meetings</a>.</p>
-        </div>
-    {% endfor %}
-      </div>
-    </div>
-        <div class="span4" class="row-fluid">
+        <div class="col-md-4 column" class="row-fluid">
           <div class="media">
           <img src="static/images/chicagolug-logo.png" class="media-object" 
           alt="ChicagoLUG logo">
@@ -52,6 +34,26 @@
 			    </div>
 			  </div>
     </div>
+    </div>
+  </div>
+
+  
+  <div class="row clearfix">
+		<div class="col-md-8 column">
+        {% for meeting in future_meeting_list %}
+        {% include "includes/meeting.html" %}
+    {% else %}
+  <div class="row clearfix">
+		<div class="col-md-12 column">
+        <h3>Next Meeting Date: <em>TBD</em></h3>
+        <p class="lead">Our next meeting has yet to be announced, which means
+        we're likely planning something
+        <a href="https://groups.google.com/forum/#!forum/chicagolinux-discuss">
+        on the mailing list</a>. You can also have a look at our list of 
+        <a href="{{ url_for('meetings') }}">past meetings</a>.</p>
+        </div>
+    {% endfor %}
+      </div>
 
 
     </div>
