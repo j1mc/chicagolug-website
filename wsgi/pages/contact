@@ -1,10 +1,8 @@
 title: Contact
+subtitle: How to get in touch with the ChicagoLUG
 ---
 
-Get in touch with members of the Chicago LUG through our mailing list
-or our social media outlets.
-
-<h4>Mailing List</h4>
+<h3>Mailing List</h3>
 <div class="vevent">
 
 Subscribe to the ChicagoLUG mailing list, or <a href="http://groups.google.com
@@ -17,7 +15,7 @@ text name=email /><input type=submit name="sub" value="Subscribe" /></p>
 </form>
 </div>
 
-<h4>Social Media</h4>
+<h3>Social Media</h3>
 <div class="vevent">
 
 Announcements about meetings and events will be posted to this site and to our
@@ -30,7 +28,7 @@ social media outlets.
 
 </div>
 
-<h4>Internet Relay Chat (IRC)</h4>
+<h3>Internet Relay Chat (IRC)</h3>
 <div class="vevent">
 
 The ChicagoLUG IRC channel is #chicagolug on irc.freenode.net.
