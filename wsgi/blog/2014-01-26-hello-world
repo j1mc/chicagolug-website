@@ -1,0 +1,21 @@
+author: ChicagoLUG
+title: Hello, World
+subtitle: Let's try out the bloggings.
+shortdesc: An introduction to the blog of the Chicago GNU/Linux User Group.
+datetime: 2014-01-26 11:05
+---
+
+## Greetings
+
+This is just a test post to see how various formatting elements will be handled
+by this flask-based blog. It's a flat-file blog, integrated into the rest of
+our flask-based website. 
+
+### Formatting and such
+
+For now, the layout of these posts follows the layout of our meetings and other
+site content pretty closely. We'll be working on that, though. Until we get
+that worked out, we probably won't be publicizing this blog too much. That's
+all right, though.
+
+Cheers!

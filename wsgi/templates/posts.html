@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Blog Archives{% endblock %}
+
+{% block content %}
+  <h2>The ChicagoLUG Blog Archives</h2>
+
+  <div>
+  {% for post in posted_blog_list %}
+    {% include "includes/post.html" %}
+    {% else %}
+      <p>Our blog has yet to be written.</p>
+  {% endfor %}
+  </div>
+  {% endblock %}
+

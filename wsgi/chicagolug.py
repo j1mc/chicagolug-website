@@ -73,6 +73,24 @@ def all_locations():
 
     return locs
 
+def get_post(path):
+    """Get a blog post from the filesystem"""
+    post = get_page(app.config['BLOG_DIR'], path)
+    if post is not None:
+        post['datetime'] = datetime.datetime.strptime(post['datetime'], '%Y-%m-%d %H:%M')
+    return post
+
+def get_posts():
+    """Return a list of all blog posts"""
+    files = os.listdir(os.path.abspath(os.path.join(os.path.dirname(__file__), app.config['BLOG_DIR'])))
+    posts = filter(lambda post: post is not None, [get_post(file) for file in files])
+    return sorted(posts, key=lambda item: item['datetime'])
+
+def posted_blogs():
+    post_list = get_posts()
+    now = datetime.datetime.now()
+    return [post for post in post_list if post['datetime'] < now]
+
 @app.route('/')
 def index():
     return render_template('homepage.html', future_meeting_list=future_meetings())
@@ -134,6 +152,20 @@ def location(path):
         abort(404)
     return render_template('location.html', location=location)
 
+@app.route('/blog/')
+def posts():
+    return render_template(
+        'posts.html',
+        posted_blog_list=reversed(posted_blogs()),
+    )
+
+@app.route('/blog/<date>/')
+def post(date):
+    post = get_post(date)
+    if post is None:
+        abort(404)
+    return render_template('post.html', post=post)
+
 @app.errorhandler(404)
 def page_not_found(error):
     return render_template('404.html'), 404
@@ -151,5 +183,5 @@ def redirect_from_epio():
         return redirect('http://chicagolug.org' + request.path, 301)
 
 if __name__ == '__main__':
-    app.debug = False
+    app.debug = True
     app.run()

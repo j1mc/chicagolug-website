@@ -6,11 +6,11 @@
   <meta name="description" content="Linux User Group of Chicago, Illinois." />
   <meta name="keywords" content="Chicago,LUG,Linux,User Group,Free Software,
   Open Source,Programming" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans|Inconsolata|Cantarell' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/reset.css') }}" />
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/typography.css') }}" />
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}" />
   <link href="{{ url_for('feed') }}" rel="alternate" title="ChicagoLUG Events" type="application/atom+xml">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans|Droid+Sans+Mono|Cantarell' rel='stylesheet' type='text/css'>
   <link href="https://plus.google.com/110920643277848720575" rel="publisher" />
   <meta name="msvalidate.01" content="FA20DCFCAC4C21E483493F349265ABF4" />
   <script type="text/javascript">
@@ -43,6 +43,7 @@
                 <li><a href="{{ url_for('index') }}">Home</a></li>
                 <li><a href="{{ url_for('page', path='contact') }}">Contact</a></li>
                 <li><a href="{{ url_for('locations') }}">Locations</a></li>
+                <li><a href="{{ url_for('posts') }}">Blog</a></li>
                 <li class="meetings">
                     <a href="{{ url_for('meetings') }}">Meetings</a>
                     <a class="feed" href="{{ url_for('feed') }}" title="ChicagoLUG Events Atom Feed">
