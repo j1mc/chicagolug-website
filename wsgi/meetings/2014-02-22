@@ -18,10 +18,10 @@ Speaking Topics
 ---------------
 
 Lincoln Bryant of the University of Chicago will show us how university
-sysadmins use [Puppet] [1] to manage their servers.
+sysadmins use [Puppet] [1] to manage their fleet of maroon-colored servers.
 
-Wally Valters of [Matasano Security] [2] will share some of how they approach
-server security, with an emphasis on techniques for securing cloud servers. 
+Wally Valters of [Matasano Security] [2] will talk about server security,
+emphasizing techniques for securing cloud servers. 
 
 Hacking
 -------
