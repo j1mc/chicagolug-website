@@ -1,7 +1,7 @@
-speaker: Brian Kroll
+speaker: Brian Kroll and Joel Luellwitz
 title: March 2014 Meeting and Hackfest for the ChicagoLUG
 venue: Pumping Station One
-shortdesc: Learn about arkOS, a platform for hosting a personal cloud on embedded linux devices.
+shortdesc: Learn about arkOS, a platform for hosting a personal cloud on embedded linux devices, and also learn basic and advanced uses of GPG and Enigmail.
 datetime: 2014-03-29 14:00
 ---
 
@@ -20,8 +20,8 @@ Speaking Topics
 Brian Kroll will teach us about [arkOS] [1] a Raspberry Pi-based platform that
 allows you to host your own website, email, “cloud” and more.
 
-We have an additional speaking slot open, as well. Let us know if you're
-interested in giving a talk.
+Joel Luellwitz will also take us through basic and advanced uses of [GPG] [2]
+and [Enigmail] [3].
 
 Hacking
 -------
@@ -40,9 +40,11 @@ Foodstuffs
 ----------
 
 Some funds for food and drink are supplied by the
-[GNOME Foundation] [2], but it's typically a good idea to bring a few dollars
+[GNOME Foundation] [4], but it's typically a good idea to bring a few dollars
 if you want to partake of pizza and drinks.
 
 [0]: http://chicagolug.org/locations/psone/
 [1]: https://arkos.io
-[2]: https://www.gnome.org/foundation/
+[2]: http://www.gnupg.org/
+[3]: https://www.enigmail.net/home/index.php
+[4]: https://www.gnome.org/foundation/
