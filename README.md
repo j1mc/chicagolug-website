@@ -1,3 +1,5 @@
+NOTE: This repository is no longer active. Please see the j1mc/chicagolug.org repository for the current instance of the website.
+
 The Chicago GNU/Linux User Group Website
 ========================================
 
